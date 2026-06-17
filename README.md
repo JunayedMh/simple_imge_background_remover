@@ -1,10 +1,10 @@
-# 🖼️ Simple Image Background Remover
+# Simple Image Background Remover
 
 A beginner-friendly Python script that removes the background from any image using the `rembg` library. Just run the script, paste your image path, and get a clean transparent PNG — no complicated setup needed!
 
 ---
 
-## ✨ Features
+## Features
 
 - Removes background from any image automatically
 - Saves output as PNG with transparent background
@@ -14,7 +14,7 @@ A beginner-friendly Python script that removes the background from any image usi
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - rembg
@@ -22,7 +22,7 @@ A beginner-friendly Python script that removes the background from any image usi
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 **1. Clone the repository**
 ```bash
@@ -39,7 +39,7 @@ pip install "rembg[cpu]" Pillow
 
 ---
 
-## 🚀 Usage
+## Usage
 
 **Run the script:**
 ```bash
@@ -62,7 +62,7 @@ Do you want to remove another background? (y/n):
 
 ---
 
-## 💡 How to Copy Image Path on Windows
+## How to Copy Image Path on Windows
 
 1. Go to your image file
 2. Hold `Shift` + Right click
@@ -71,7 +71,7 @@ Do you want to remove another background? (y/n):
 
 ---
 
-## 📁 Output
+## Output
 
 The output file is saved in the **same folder** as your original image with `_no_bg` added to the filename.
 
@@ -83,7 +83,7 @@ The output file is saved in the **same folder** as your original image with `_no
 
 ---
 
-## 🐛 Common Issues
+## Common Issues
 
 **`No onnxruntime backend found` error:**
 ```bash
@@ -94,16 +94,6 @@ pip install "rembg[cpu]"
 - Make sure you paste the full path
 - The script automatically removes quotes, so no need to delete them manually
 - Try using forward slashes `/` instead of backslashes `\` if issues persist
-
----
-
-## 📚 What I Learned Building This
-
-- Using third party libraries (`rembg`, `Pillow`)
-- Working with file paths using the `os` module
-- Handling user input and cleaning strings with `.strip()` and `.replace()`
-- Using `while True` loops with `break` to repeat actions
-- Debugging by printing intermediate values
 
 ---
 
