@@ -19,7 +19,7 @@ if not os.path.exists(path):
 
 else:
     base, ext = os.path.splitext(path)
-    output_path = base + "no_background.png"
+    output_path = base + "_no_background.png"
     print("\nOpening image...")
     
     input_image = Image.open(path)

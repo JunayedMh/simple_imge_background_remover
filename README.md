@@ -1,6 +1,6 @@
 # Simple Image Background Remover
 
-A beginner-friendly Python script that removes the background from any image using the `rembg` library. Just run the script, paste your image path, and get a clean transparent PNG — no complicated setup needed!
+A beginner-friendly Python script that removes the background from any image using the `rembg` library. Just run the script, paste your image path, and get a clean transparent PNG, no complicated setup needed!
 
 ---
 
@@ -8,9 +8,9 @@ A beginner-friendly Python script that removes the background from any image usi
 
 - Removes background from any image automatically
 - Saves output as PNG with transparent background
-- Automatically names the output file (adds `_no_bg` to original name)
+- Automatically names the output file (adds `no_background` to original name)
 - Handles Windows file paths with quotes and backslashes
-- Loop mode — remove multiple images in one session without restarting
+- Loop mode: remove multiple images in one session without restarting
 
 ---
 
@@ -27,7 +27,7 @@ A beginner-friendly Python script that removes the background from any image usi
 **1. Clone the repository**
 ```bash
 git clone https://github.com/JunayedMh/simple_imge_background_remover.git
-cd simple_imge_background_remover
+cd removebg
 ```
 
 **2. Install dependencies**
@@ -55,7 +55,7 @@ Reading path as: G:\Photos\photo.jpg
 
 Opening image...
 Removing background... (this may take a few seconds)
-✅ Done! Saved as: G:\Photos\photo_no_bg.png
+✅ Done! Saved as: G:\Photos\_no_background.png
 
 Do you want to remove another background? (y/n):
 ```
@@ -67,19 +67,19 @@ Do you want to remove another background? (y/n):
 1. Go to your image file
 2. Hold `Shift` + Right click
 3. Click **"Copy as path"**
-4. Paste it into the terminal — the script handles the quotes automatically!
+4. Paste it into the terminal, the script handles the quotes automatically!
 
 ---
 
 ## Output
 
-The output file is saved in the **same folder** as your original image with `_no_bg` added to the filename.
+The output file is saved in the **same folder** as your original image with `no_background` added to the filename.
 
 | Input | Output |
 |---|---|
-| `photo.jpg` | `photo_no_bg.png` |
-| `portrait.png` | `portrait_no_bg.png` |
-| `image.webp` | `image_no_bg.png` |
+| `photo.jpg` | `photo_no_background` |
+| `portrait.png` | `portrait_no_background` |
+| `image.webp` | `image_no_background.png` |
 
 ---
 
@@ -98,5 +98,3 @@ pip install "rembg[cpu]"
 ---
 
 ## 📄 License
-
-MIT License — feel free to use and modify!
