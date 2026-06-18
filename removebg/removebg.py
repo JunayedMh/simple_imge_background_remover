@@ -4,7 +4,7 @@
 from rembg import remove
 from PIL import Image
 import os
-
+print("Loading........")
 print("--- Background Remover ---")
 print()
 
